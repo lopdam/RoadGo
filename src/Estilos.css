@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/08/2018, 8:14:27
+
+*/
+
+.btnJugar {
+    -fx-background-color: #008CBA;
+    -fx-font-size: 15px;
+    -fx-border-radius: 5;
+    -fx-border-color: white;
+    -fx-border-width: 5;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-background-radius: 50; 
+    -fx-font-weight: bold;
+    -fx-padding: 3 10 3 10;
+    
+    }
+    .textInicio {
+    -fx-underline: true;
+    -fx-font: 50px Tahoma;
+    -fx-font-smoothing-type: lcd;
+    -fx-wrap-text:true;
+}
+
+.txtRegister{
+    -fx-font: bold 25px Tahoma;
+    -fx-wrap-text:true;
+    
+}
+
+.btnAvertenciaNombre{
+    -fx-font: bold 18px  Tahoma;
+    -fx-background-color: red;
+    -fx-text-fill: white;
+
+
+    
+}
